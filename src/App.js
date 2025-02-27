@@ -3,7 +3,8 @@ import axios from "axios";
 import Select from "react-select";
 import "./App.css";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://your-backend.vercel.app/api";
+
 
 function App() {
     const [cats, setCats] = useState([]);
